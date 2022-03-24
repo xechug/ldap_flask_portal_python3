@@ -1,0 +1,100 @@
+.divider-top {
+    margin-top: 50px;
+}
+
+.lang-selector {
+    z-index: 10000 !important;
+    float: right;
+    margin: 20px;
+}
+
+.user-selector {
+    z-index: 10000 !important;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mayus {
+    text-transform: uppercase;
+}
+
+.space-nav {
+    padding-top: 60px;
+}
+
+.space-container-base {
+    padding-top: 40px;
+}
+
+@media (max-width: 991px) {
+    .space-smart {
+        margin-top: 20px;
+    }
+
+    .navbar-space-smart {
+        padding-top: 1.2rem !important;
+        padding-bottom: 1.2rem !important;
+    }
+
+    .logo-audens-smart {
+        width: 40%;
+    }
+}
+
+#intro {
+    height: 100vh;
+}
+
+.dropdown-position-perfect{
+    margin: -135px;
+}
+
+.white{
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding:5%;
+    box-shadow: 2px 2px 5px 4px rgb(59 164 54 / 35%);
+}
+
+#button-home{
+    margin: 1%;
+}
+
+.paging-nav {
+  text-align: right;
+  padding-top: 2px;
+}
+
+.paging-nav a {
+  margin: auto 1px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1px 7px;
+  background: #91b9e6;
+  color: white;
+  border-radius: 3px;
+}
+
+.paging-nav .selected-page {
+  background: #187ed5;
+  font-weight: bold;
+}
+
+.paging-nav,
+#tableData {
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+#table-notify{
+    font-size: small;
+}
+
+.hscroll {
+  overflow-x: auto; /* Horizontal */
+}
+
+#small-text {
+    font-size: 1.5rem;
+}
